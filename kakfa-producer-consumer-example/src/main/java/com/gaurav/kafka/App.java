@@ -15,6 +15,7 @@ import com.gaurav.kafka.producer.ProducerCreator;
 public class App {
 	public static void main(String[] args) {
 //		runProducer();
+		System.out.println("Record Key ");
 		runConsumer();
 	}
 
